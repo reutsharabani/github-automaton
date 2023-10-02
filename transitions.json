@@ -1,0 +1,19 @@
+{
+  "test 1": {
+    "issues": {
+      "opened": "Todo",
+      "reopened": "In Progress",
+      "assigned": "In Progress",
+      "unassigned": "Todo",
+      "closed": "Done"
+    }
+  },
+  "test 2": {
+    "issues": {
+      "opened": "Todo",
+      "assigned": "In Progress",
+      "unassigned": "Todo",
+      "closed": "Done"
+    }
+  }
+}

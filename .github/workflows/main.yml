@@ -1,0 +1,13 @@
+on: [issues]
+
+jobs:
+  move-issues:
+    runs-on: ubuntu-latest
+    name: Card transitions
+    steps:
+      - name: Apply status transitions
+        id: hello
+        uses: reutsharabani/github-automaton@main
+        with:
+          token: ${{ secrets.GHPROJECT_TOKEN}}
+          transitions: transitions.json

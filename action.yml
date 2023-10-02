@@ -1,0 +1,14 @@
+name: 'Automaton'
+description: 'Github automation using a tansition graph'
+author: 'Reut Sharabani'
+inputs:
+  token:
+    description: 'The GitHub token used to manage issues status'
+    required: true
+  transitions:  # id of input
+    description: 'transitions file (json)'
+    default: '.github/transitions.json'
+    required: false
+runs:
+  using: 'node20'
+  main: 'index.js'
