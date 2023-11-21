@@ -1,7 +1,8 @@
 # GitHub action for issues automation for projects V2
 
-You will need to provide a token with permission to repo and handle projects.
+Control [project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) tickets' lifecycle declaratively.
 
+You will need to provide a token with permission to repo and handle projects.
 You probably want to do it via github secrets.
 
 ## Example action
