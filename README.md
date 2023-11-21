@@ -52,7 +52,7 @@ Basically a json mapping from project-title -> event-type -> action-type -> targ
 This is based on Alex Page's excellent [github-project-automation-plus](https://github.com/alex-page/github-project-automation-plus) but it's controlled via transition file.
 
 
-Possible extensions:
+# Possible extensions:
 
 - More filters on transitions for fine-grained controls
 - Support PR transitions
